@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Knarfjeh – Min musik</title>
+
   <style>
     body {
       margin: 0;
@@ -13,28 +14,44 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
+
     header {
       padding: 70px 20px 45px;
     }
+
     h1 {
       font-size: 48px;
       margin-bottom: 10px;
     }
+
     p {
       color: #c5c5c5;
       line-height: 1.7;
     }
+
     main {
       max-width: 700px;
       margin: auto;
       padding: 20px;
     }
+
     section {
       background: #242424;
       border-radius: 14px;
       padding: 25px;
       margin: 20px 0;
     }
+
+    .track {
+      margin: 30px 0;
+      text-align: left;
+    }
+
+    .track audio {
+      display: block;
+      width: 100%;
+    }
+
     footer {
       padding: 30px;
       color: #999;
@@ -42,6 +59,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Knarfjeh</h1>
@@ -51,21 +69,63 @@
   <main>
     <section>
       <h2>Välkommen</h2>
-      <p>Här samlar jag min egen musik.
-      Lyssna, upptäck och följ med på resan.</p>
+      <p>
+        Här samlar jag min egen musik.
+        Lyssna, upptäck och följ med på resan.
+      </p>
     </section>
 
     <section>
-  <h2>Mina låtar</h2>
+      <h2>Mina låtar</h2>
 
-  <div class="track">
-    <h3>Osynlig man</h3>
-    <audio controls preload="metadata" style="width: 100%;">
-      <source src="Osynlig_man.mp3" type="audio/mpeg">
-      Din webbläsare stöder inte ljudspelaren.
-    </audio>
-  </div>
-</section>
+      <div class="track">
+        <h3>Osynlig man</h3>
+        <audio controls preload="metadata">
+          <source src="Osynlig_man.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+
+      <div class="track">
+        <h3>Langtan</h3>
+        <audio controls preload="metadata">
+          <source src="Langtan.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+
+      <div class="track">
+        <h3>Underworld</h3>
+        <audio controls preload="metadata">
+          <source src="Underworld.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+
+      <div class="track">
+        <h3>Vem har ratt</h3>
+        <audio controls preload="metadata">
+          <source src="Vem_har_ratt.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+
+      <div class="track">
+        <h3>Statistik</h3>
+        <audio controls preload="metadata">
+          <source src="Statistik.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+
+      <div class="track">
+        <h3>Mousekiller1</h3>
+        <audio controls preload="metadata">
+          <source src="Mousekiller1.mp3" type="audio/mpeg">
+          Din webbläsare stöder inte ljudspelaren.
+        </audio>
+      </div>
+    </section>
   </main>
 
   <footer>
